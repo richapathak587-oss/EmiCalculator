@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+     <h1>Home Loan EMI Calculator</h1>
+      <div id="box">
+            Loan Amount(In Rupees):<br>
+            <input id="P" type="text" onkeyup="P_valid()"><br><br>
+            Annual Intrest Rate(%):<br>
+            <input id="R" type="text"  onkeyup="A_valid()"><br><br>
+            Tenure(In Year):<br>
+            <input id="N" type="text"  onkeyup="T_valid()"><br><br>
+            <button id="submit" onclick="submit()">Calculate EMI</button>
+      </div><br>
+      <div id="show">
+            Monthly EMI:-<span id="m_emi"></span><br>
+            Total Intrest:-<span id="t_intrest"></span><br>
+            Total Payment:-<span id="t_payment"></span><br>
+      </div>
+        <div id="container"></div>
+   
+</body>
+</html>

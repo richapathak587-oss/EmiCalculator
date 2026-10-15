@@ -1,0 +1,35 @@
+body
+{
+    background-color: bisque;
+}
+#box
+{
+    border: 2px solid black;
+    width: 550px;
+    height: 350px;
+    font-size: 27px;
+    background-color: palevioletred;
+    padding: 40px;
+}
+input
+{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(254, 254, 172);
+}
+#submit
+{ 
+    width: 507px;
+    height: 38px;
+}
+#container
+{
+    margin-left: 750px;
+    margin-top: -550px;
+    /* width: 700px; */
+    /* border: 2px solid black; */
+}
+#show
+{
+    display: none;
+}
